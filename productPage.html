@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Home Page</title>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <!-- Tailwind cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- css style -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Flowbit scipt  -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
+  <!-- awesome icon  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+
+
+
+
+
+
+<body class="bg-white">
+
+
+
+
+  <header>
+
+
+    <nav class="bg-[#f5f5f5] fixed w-full top-0 start-0 z-50">
+      <section class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+
+        <!-- Logo page  -->
+        <a href="./homepage.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img class="  h-[80px] w-[80px] " src="./img/LogoMiniProject.png  " alt="Logo">
+        </a>
+
+        <section class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <button type="button"
+            class=" w-[130px] text-white bg-[#0D9480] hover:bg-[#048287] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-4 py-2 text-center dark:bg-[#0D9480] dark:hover:bg-[#048287] dark:focus:ring-blue-800">Sign Up</button>
+
+          <button data-collapse-toggle="navbar-sticky" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+        </section>
+
+        <section class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#f5f5f5] bg-[#f5f5f5] text-xl font-semibold   ">
+            <li>
+              <a href="./homepage.html"
+                class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 text-black hover:bg-[#FF008A] hover:md:text-[#0D9488] "
+                aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="./productPage.html"
+                class=" block py-2 px-3 text-white bg-[#0D9488] rounded md:bg-transparent hover:md:text-[#0D9488] md:text-[#FF008A] md:p-0 ">Products</a>
+            </li>
+            <li>
+              <a href="./about.html"
+                class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 text-black hover:bg-[#FF008A] hover:md:text-[#0D9488] ">About</a>
+            </li>
+            
+
+          </ul>
+        </section>
+      </section>
+    </nav>
+
+  </header>
+
+
+
+
+
+
+
+  <main class="w-full ">
+ 
+
+
+
+    
+    <!--  Card list -->
+    <section class=" w-full mt-[50px] flex justify-center mb-[200px] mt-[100px]">
+      <section class=" w-[85%]">
+        <p class="mt-[50px] text-black "> Home > Product </p>
+        <h1 class="pt-[50px] font-bold text-3xl" >Products Collection </h1>
+
+
+
+        <section class=" grid lg:grid-cols-4 md:grid-cols-2 grid-rows-[370px 370px] gap-[50px] lg:justify-center justify-center lg:mx-auto mx-auto ">
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/watch-card.jpg" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/watch-card-40-hermes-202309.jpg" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/Simple-Product-Watch-6-300x300.png" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/45-nc-alum-starlight-sport-loop-starlight-s9.jpg" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/watch-card.jpg" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/watch-card-40-hermes-202309.jpg" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/Simple-Product-Watch-6-300x300.png" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/45-nc-alum-starlight-sport-loop-starlight-s9.jpg" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/watch-card.jpg" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/watch-card-40-hermes-202309.jpg" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/Simple-Product-Watch-6-300x300.png" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+
+          <div class=" hover:bg-[#f5f5f5]">
+            <div class=" h-[310px] w-[310px] items-center flex justify-center align-center ">
+              <img class="h-[310px] w-full" src="./img/45-nc-alum-starlight-sport-loop-starlight-s9.jpg" alt="image">
+            </div>
+            <div>
+              <p class="text-lg ">Lunar Connect</p>
+            <p class="text-lg ">$25.99</p>
+            </div>
+          </div>
+
+        </section>
+      </section>
+    </section>
+
+
+
+  </main>
+
+
+
+  <!-- Footer -->
+    <footer class=" bg-[#f5f5f5] w-full">
+    <section class="mx-auto w-[85%] pt-[20px]">
+      <section class=" grid justify-between lg:grid-cols-[800px_1fr_1fr] sm:grid-cols-1 lg:gap-[10px] ">
+            <section class=" lg:w-[800px] md:w-[500px] sm:w-[400px] ">
+                <img class="w-[150px]" src="./img/LogoMiniProject.png" alt="Logo">
+                
+                <ul>
+                  <li class="text-lg font-medium  ">address :<span class="text-gray-500 font-light"> No. 24, St. 562, Sangkat Boeung kak I, Khan Toul Kork, Phnom Penh, Cambodia</span></li>
+                  <li class="text-lg font-medium ">Phone : <span class="text-gray-500 font-light " >( +885 ) 87 575 678</span></li>
+                </ul>
+                <p class="text-lg font-medium ">Follow Us</p>
+
+                <ul class="mt-8 flex gap-6">
+                    <li>
+                        <a href="https://t.me/istadkh" target="_blank">
+                          <i class="fa-brands fa-telegram fa-2x"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/istad.co" target="_blank">
+                          <i class="fa-brands fa-facebook fa-2x "></i>
+                        </a>
+                    </li>
+
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCUaq9S8Gu4zteE-x77JT-kA" target="_blank">
+                        <i class="fa-brands fa-youtube fa-2x "></i>
+                      </a>
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class=" pt-[50px] ">
+                <div>
+                    <p class="font-semibold text-xl ">About </p>
+
+                    <ul class="mt-6 space-y-4 text-sm">
+                        <li>
+                            <a href="#" class="text-gray-500 font-light text-lg">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-500 font-light text-lg">
+                                Delivery Information
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-500 font-light text-lg">
+                                Contact Us
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-gray-500 font-light text-lg">
+                                Privatcy Policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+
+
+            <section class=" pt-[50px] ">
+
+              <div>
+                  <p class="font-semibold text-xl ">My Acount</p>
+
+                  <ul class="mt-6 space-y-4 text-sm">
+                      <li>
+                          <a href="about.html" class="text-gray-500 font-light text-lg">
+                              Sign In
+                          </a>
+                      </li>
+
+                      <li>
+                          <a href="contact.html" class="text-gray-500 font-light text-lg">
+                              Help
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </section>
+        </section>
+
+        <section style=" border: 1px solid black ; margin-top: 10px; margin-bottom: 10px;"></section>
+
+        <p class=" flex justify-center text-gray-500 font-light text-lg ">
+            &copy; 2023. CSTAD Shop. All rights reserved.
+        </p>
+    </section>
+    </footer>
+
+
+  <!-- Flowbit script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+.bg-image{
+    background-image: url("./img/16017_Comp_A_Desktop.jpg");
+    background-size: 100% 100%;
+}
